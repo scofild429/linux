@@ -1,0 +1,84 @@
+#+TITLE: pthread Programm
+#+OPTIONS: num:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+#+STARTUP: content
+
+[[~/Dropbox/subjects/linux_program.org][linux programmierung]]
+
+* Pthread controll
+本笔记来自
+https://www.youtube.com/watch?v=1PfFFuLXRvA&list=PL6Rp5X52lx2-9gLXoixecIrkGXJD39fOH
+开发者学堂的linux多线程编程
+
+** 1_pthread_create.c
+using pthread_create create new thread(thread_fun) with
+arguements("new thread"). In new thread call function print_id with
+giving arguements.
+
+
+** 2_pthread_id.c
+using pid = getpid() to get pid of current pthread
+
+
+** 3_pthread_jion.c
+pthread_jion(tid, &reval) 可以回收主线程发起的副线程tid，并由
+副线程指定返回值给reval.但是副线程如自己调用了
+pthread_detach(pthread-self()) 可以阻止主线程的jion
+
+
+** 4_pthread_cancel.c
+从主线程来的pthread_cancel(tid)作用到tid的副线程时，
+如果副线程设置为pthread_setcancelstate(PTHREAD_CANCEL_DISABLE, NULL)
+则取消请求被忽视
+
+如果副线程设置为pthread_setcancelstate(PTHREAD_CANCEL_ENABLE, NULL);
+则取消请求在下一个取消点被执行
+
+如果副线程设置为pthread_setcanceltype(PTHREAD_CANCEL_ASYNCHRONOUS, NULL);
+则取消请求被立即执行
+
+
+** 5_pthread_rwlock.c
+pthread_rwlock_t rwlock;         声明
+pthread_rwlock_init(&rwlock);    初始化
+pthread_rwlock_wrlock(&rwlock);  写锁
+pthread_rwlock_rdlock(&rwlock);  读锁
+pthread_rwlock_unlock(&rwlock);  解锁
+pthread_rwlock_destroy(&rwlock); 销锁
+
+
+** 6_pthread_attr.c 
+seeing pthread_attr.c 
+pthread_attr_init(&attr) using :  pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
+OR:  pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);  
+决定该线程是否可以被jion.
+
+
+** 7_pthread_mutex.c
+pthread_mutex_lock(&mutex) 和 pthread_mutex_unlock(&mutex)
+可以锁住之间的的任何变量， 所以不同线程之间的访问和赋值只能错开时间，
+这样就不会造成线程之间变量值不受控制的错误
+
+
+** 8_pthread_interpeter_controll.c
+用主线程给一个可交换变量赋值，来控制副进程的执行，
+only if in main thread, parameter interpeter be assigned to 1, in 
+side thread can start to run.
+
+
+** 9_pthread_pass_struct.c
+将一个结构体通过pthread_create()的参数传给副进程，注意在副进程中的
+结构体转化
+
+
+
+** 10_pthread_stack_attr.c
+在系统支持的条件下，获取栈的大小，并作出调整
+
+
+*  pthread_cond.c
+消费者和生产者的一个多线程实列, 每1秒生产一个， 每2秒消费一个，
+最多只能存5个，只有一个空位时，生产者停住等待，
+如果消费了全部产品，消费者要停住等待
+mutex 可以保护整个区域，而条件量用于等待唤醒
+

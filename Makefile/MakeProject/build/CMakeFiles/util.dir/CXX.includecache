@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/silin/Dropbox/linux/Makefile/MakeProject/util/util.cpp
+util.hpp
+/home/silin/Dropbox/linux/Makefile/MakeProject/util/util.hpp
+iostream
+-
+
+/home/silin/Dropbox/linux/Makefile/MakeProject/util/util.hpp
+

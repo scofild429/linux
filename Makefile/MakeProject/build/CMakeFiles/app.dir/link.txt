@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/app.dir/app.cpp.o CMakeFiles/app.dir/myadd.cpp.o  -o app libutil.a 
