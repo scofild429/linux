@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/silin/Dropbox/linux/Makefile/MakeProject
+CMAKE_SOURCE_DIR = /home/silin/Dropbox/cs/Makefile/MakeProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/silin/Dropbox/linux/Makefile/MakeProject
+CMAKE_BINARY_DIR = /home/silin/Dropbox/cs/Makefile/MakeProject
 
 # Include any dependencies generated for this target.
 include CMakeFiles/app.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/app.dir/flags.make
 
 CMakeFiles/app.dir/app.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/app.cpp.o: app.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silin/Dropbox/linux/Makefile/MakeProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/app.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/app.cpp.o -c /home/silin/Dropbox/linux/Makefile/MakeProject/app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silin/Dropbox/cs/Makefile/MakeProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/app.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/app.cpp.o -c /home/silin/Dropbox/cs/Makefile/MakeProject/app.cpp
 
 CMakeFiles/app.dir/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/app.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silin/Dropbox/linux/Makefile/MakeProject/app.cpp > CMakeFiles/app.dir/app.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silin/Dropbox/cs/Makefile/MakeProject/app.cpp > CMakeFiles/app.dir/app.cpp.i
 
 CMakeFiles/app.dir/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/app.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silin/Dropbox/linux/Makefile/MakeProject/app.cpp -o CMakeFiles/app.dir/app.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silin/Dropbox/cs/Makefile/MakeProject/app.cpp -o CMakeFiles/app.dir/app.cpp.s
 
 CMakeFiles/app.dir/app.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/app.dir/app.cpp.o.provides.build: CMakeFiles/app.dir/app.cpp.o
 
 CMakeFiles/app.dir/myadd.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/myadd.cpp.o: myadd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silin/Dropbox/linux/Makefile/MakeProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/myadd.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/myadd.cpp.o -c /home/silin/Dropbox/linux/Makefile/MakeProject/myadd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silin/Dropbox/cs/Makefile/MakeProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/myadd.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/myadd.cpp.o -c /home/silin/Dropbox/cs/Makefile/MakeProject/myadd.cpp
 
 CMakeFiles/app.dir/myadd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/myadd.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silin/Dropbox/linux/Makefile/MakeProject/myadd.cpp > CMakeFiles/app.dir/myadd.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silin/Dropbox/cs/Makefile/MakeProject/myadd.cpp > CMakeFiles/app.dir/myadd.cpp.i
 
 CMakeFiles/app.dir/myadd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/myadd.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silin/Dropbox/linux/Makefile/MakeProject/myadd.cpp -o CMakeFiles/app.dir/myadd.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silin/Dropbox/cs/Makefile/MakeProject/myadd.cpp -o CMakeFiles/app.dir/myadd.cpp.s
 
 CMakeFiles/app.dir/myadd.cpp.o.requires:
 
@@ -118,7 +118,7 @@ app: CMakeFiles/app.dir/myadd.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: libutil.a
 app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/silin/Dropbox/linux/Makefile/MakeProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/silin/Dropbox/cs/Makefile/MakeProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +136,6 @@ CMakeFiles/app.dir/clean:
 .PHONY : CMakeFiles/app.dir/clean
 
 CMakeFiles/app.dir/depend:
-	cd /home/silin/Dropbox/linux/Makefile/MakeProject && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/silin/Dropbox/linux/Makefile/MakeProject /home/silin/Dropbox/linux/Makefile/MakeProject /home/silin/Dropbox/linux/Makefile/MakeProject /home/silin/Dropbox/linux/Makefile/MakeProject /home/silin/Dropbox/linux/Makefile/MakeProject/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/silin/Dropbox/cs/Makefile/MakeProject && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/silin/Dropbox/cs/Makefile/MakeProject /home/silin/Dropbox/cs/Makefile/MakeProject /home/silin/Dropbox/cs/Makefile/MakeProject /home/silin/Dropbox/cs/Makefile/MakeProject /home/silin/Dropbox/cs/Makefile/MakeProject/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/app.dir/depend
 

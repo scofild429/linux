@@ -1,4 +1,4 @@
-# Install script for directory: /home/silin/Dropbox/linux/Makefile/MakeProject
+# Install script for directory: /home/silin/Dropbox/cs/Makefile/MakeProject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/silin/Dropbox/linux/Makefile/MakeProject/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/silin/Dropbox/cs/Makefile/MakeProject/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

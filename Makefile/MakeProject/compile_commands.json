@@ -1,38 +1,17 @@
 [
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-I/home/silin/Dropbox/linux/Makefile/MakeProject/util",
-            "-o",
-            "CMakeFiles/app.dir/myadd.cpp.o",
-            "myadd.cpp"
-        ],
-        "directory": "/home/silin/Dropbox/linux/Makefile/MakeProject",
-        "file": "myadd.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-I/home/silin/Dropbox/linux/Makefile/MakeProject/util",
-            "-o",
-            "CMakeFiles/util.dir/util/util.cpp.o",
-            "util/util.cpp"
-        ],
-        "directory": "/home/silin/Dropbox/linux/Makefile/MakeProject",
-        "file": "util/util.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-I/home/silin/Dropbox/linux/Makefile/MakeProject/util",
-            "-o",
-            "CMakeFiles/app.dir/app.cpp.o",
-            "app.cpp"
-        ],
-        "directory": "/home/silin/Dropbox/linux/Makefile/MakeProject",
-        "file": "app.cpp"
-    }
+{
+  "directory": "/home/silin/Dropbox/cs/Makefile/MakeProject",
+  "command": "/usr/bin/c++   -I/home/silin/Dropbox/cs/Makefile/MakeProject/util    -o CMakeFiles/util.dir/util/util.cpp.o -c /home/silin/Dropbox/cs/Makefile/MakeProject/util/util.cpp",
+  "file": "/home/silin/Dropbox/cs/Makefile/MakeProject/util/util.cpp"
+},
+{
+  "directory": "/home/silin/Dropbox/cs/Makefile/MakeProject",
+  "command": "/usr/bin/c++   -I/home/silin/Dropbox/cs/Makefile/MakeProject/util    -o CMakeFiles/app.dir/app.cpp.o -c /home/silin/Dropbox/cs/Makefile/MakeProject/app.cpp",
+  "file": "/home/silin/Dropbox/cs/Makefile/MakeProject/app.cpp"
+},
+{
+  "directory": "/home/silin/Dropbox/cs/Makefile/MakeProject",
+  "command": "/usr/bin/c++   -I/home/silin/Dropbox/cs/Makefile/MakeProject/util    -o CMakeFiles/app.dir/myadd.cpp.o -c /home/silin/Dropbox/cs/Makefile/MakeProject/myadd.cpp",
+  "file": "/home/silin/Dropbox/cs/Makefile/MakeProject/myadd.cpp"
+}
 ]

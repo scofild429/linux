@@ -1,0 +1,65 @@
+#+TITLE: Example Presentation
+#+AUTHOR: Carsten Dominik
+#+OPTIONS: H:2 toc:t num:t
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+BEAMER_THEME: Madrid
+#+COLUMNS: %45ITEM %10BEAMER_ENV(Env) %10BEAMER_ACT(Act) %4BEAMER_COL(Col)
+
+* This is the first structural section 01
+** Frame 1
+*** Thanks to Eric Fraga                                           :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.30
+    :BEAMER_ENV: block
+    :END:
+    for the first viable Beamer setup in Org
+*** Thanks to everyone else                                        :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.30
+    :BEAMER_ACT: <2->
+    :BEAMER_ENV: block
+    :END:
+    for contributing to the discussion
+
+*** Thanks to Eric Fragali                                        :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.30
+    :BEAMER_ACT: <3->
+    :BEAMER_ENV: block
+    :END:
+    for the first viable Beamer setup in Org
+** Frame 2 (where we will not use columns)
+*** Request
+    Please test this stuff!
+
+* This is the first structural section 02 
+** Frame 21
+*** Request01                                                           :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.48
+    :BEAMER_ENV: block
+    :END:
+    for the first viable Beamer setup in Org
+    Please test this stuff!
+*** Request02                                                           :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.48
+    :BEAMER_ENV: block
+    :END:
+    for contributing to the discussion
+    for the first viable Beamer setup in Org
+** Frame 22 (where we will not use columns)
+*** Request01
+for the first viable Beamer setup in Org
+Please test this stuff!
+*** Request02
+for the first viable Beamer setup in Org
+Please test this stuff!
+**** This will be formatted as a beamer note                       :B_note:
+     :PROPERTIES:
+     :BEAMER_env: note
+     :END:
+     here what do you want to say to me
+
+

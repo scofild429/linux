@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/silin/Dropbox/linux/Makefile/MakeProject
+CMAKE_SOURCE_DIR = /home/silin/Dropbox/cs/Makefile/MakeProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/silin/Dropbox/linux/Makefile/MakeProject
+CMAKE_BINARY_DIR = /home/silin/Dropbox/cs/Makefile/MakeProject
 
 # Include any dependencies generated for this target.
 include CMakeFiles/util.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/util.dir/flags.make
 
 CMakeFiles/util.dir/util/util.cpp.o: CMakeFiles/util.dir/flags.make
 CMakeFiles/util.dir/util/util.cpp.o: util/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silin/Dropbox/linux/Makefile/MakeProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/util.dir/util/util.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/util.dir/util/util.cpp.o -c /home/silin/Dropbox/linux/Makefile/MakeProject/util/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silin/Dropbox/cs/Makefile/MakeProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/util.dir/util/util.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/util.dir/util/util.cpp.o -c /home/silin/Dropbox/cs/Makefile/MakeProject/util/util.cpp
 
 CMakeFiles/util.dir/util/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/util.dir/util/util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silin/Dropbox/linux/Makefile/MakeProject/util/util.cpp > CMakeFiles/util.dir/util/util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silin/Dropbox/cs/Makefile/MakeProject/util/util.cpp > CMakeFiles/util.dir/util/util.cpp.i
 
 CMakeFiles/util.dir/util/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silin/Dropbox/linux/Makefile/MakeProject/util/util.cpp -o CMakeFiles/util.dir/util/util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silin/Dropbox/cs/Makefile/MakeProject/util/util.cpp -o CMakeFiles/util.dir/util/util.cpp.s
 
 CMakeFiles/util.dir/util/util.cpp.o.requires:
 
@@ -91,7 +91,7 @@ util_EXTERNAL_OBJECTS =
 libutil.a: CMakeFiles/util.dir/util/util.cpp.o
 libutil.a: CMakeFiles/util.dir/build.make
 libutil.a: CMakeFiles/util.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/silin/Dropbox/linux/Makefile/MakeProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libutil.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/silin/Dropbox/cs/Makefile/MakeProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libutil.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/util.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/util.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/util.dir/clean:
 .PHONY : CMakeFiles/util.dir/clean
 
 CMakeFiles/util.dir/depend:
-	cd /home/silin/Dropbox/linux/Makefile/MakeProject && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/silin/Dropbox/linux/Makefile/MakeProject /home/silin/Dropbox/linux/Makefile/MakeProject /home/silin/Dropbox/linux/Makefile/MakeProject /home/silin/Dropbox/linux/Makefile/MakeProject /home/silin/Dropbox/linux/Makefile/MakeProject/CMakeFiles/util.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/silin/Dropbox/cs/Makefile/MakeProject && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/silin/Dropbox/cs/Makefile/MakeProject /home/silin/Dropbox/cs/Makefile/MakeProject /home/silin/Dropbox/cs/Makefile/MakeProject /home/silin/Dropbox/cs/Makefile/MakeProject /home/silin/Dropbox/cs/Makefile/MakeProject/CMakeFiles/util.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/util.dir/depend
 

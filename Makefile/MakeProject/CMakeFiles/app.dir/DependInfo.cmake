@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/silin/Dropbox/linux/Makefile/MakeProject/app.cpp" "/home/silin/Dropbox/linux/Makefile/MakeProject/CMakeFiles/app.dir/app.cpp.o"
-  "/home/silin/Dropbox/linux/Makefile/MakeProject/myadd.cpp" "/home/silin/Dropbox/linux/Makefile/MakeProject/CMakeFiles/app.dir/myadd.cpp.o"
+  "/home/silin/Dropbox/cs/Makefile/MakeProject/app.cpp" "/home/silin/Dropbox/cs/Makefile/MakeProject/CMakeFiles/app.dir/app.cpp.o"
+  "/home/silin/Dropbox/cs/Makefile/MakeProject/myadd.cpp" "/home/silin/Dropbox/cs/Makefile/MakeProject/CMakeFiles/app.dir/myadd.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/silin/Dropbox/linux/Makefile/MakeProject/CMakeFiles/util.dir/DependInfo.cmake"
+  "/home/silin/Dropbox/cs/Makefile/MakeProject/CMakeFiles/util.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

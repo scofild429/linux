@@ -1,0 +1,6 @@
+
+| rm ./node_modules | the rest can be saved or send                       |
+| npm i             | install all dependence                              |
+| npm run build     | generate the dist folder, which are ready to deploy |
+| npm start         | run in local server                                 |
+

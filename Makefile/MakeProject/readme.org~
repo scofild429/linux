@@ -1,1 +1,0 @@
-1, cd build \n 2, cmake .. \n 3 make \n4 ./app

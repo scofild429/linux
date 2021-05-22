@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/silin/Dropbox/linux/Makefile/MakeProject/util 
+CXX_INCLUDES = -I/home/silin/Dropbox/cs/Makefile/MakeProject/util 
 
