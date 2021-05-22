@@ -1884,6 +1884,16 @@ C-c o (clm/toggle-comand-log-buffer) to open command-log and again to close
   (global-command-log-mode t)
 #+end_src
 * EAF
+
+pip3 install epc
+pip3 install PyQt5
+pip install PyQtWebEngine
+pip install wmctrl
+pip install PyGetWindow
+pip install PyMuPDF
+pip install qtconsole
+
+
 Vimium : [[https://vimium.github.io/][Vimium shourtcuts]]
 EAF : [[https://github.com/manateelazycat/emacs-application-framework/wiki/Keybindings][EAF shortcuts]]
 eaf-proxy-caret
@@ -1904,15 +1914,15 @@ eaf-proxy-caret
 
 
 #+begin_src emacs-lisp
-  ;; (require 'eaf)
-    ;; (use-package eaf
-    ;;   :load-path "~/.emacs.d/emacs-application-framework" ; Set to "/usr/share/emacs/site-lisp/eaf" if installed from AUR
-    ;;   :custom
-    ;;   (eaf-find-alternate-file-in-dired t)
-    ;;   :config
-    ;;   (eaf-bind-key scroll_up "C-n" eaf-pdf-viewer-keybinding)
-    ;;   (eaf-bind-key scroll_down "C-p" eaf-pdf-viewer-keybinding)
-    ;;   (eaf-bind-key take_photo "p" eaf-camera-keybinding))
+  (require 'eaf)
+    (use-package eaf
+      :load-path "~/.emacs.d/emacs-application-framework" ; Set to "/usr/share/emacs/site-lisp/eaf" if installed from AUR
+      :custom
+      (eaf-find-alternate-file-in-dired t)
+      :config
+      (eaf-bind-key scroll_up "C-n" eaf-pdf-viewer-keybinding)
+      (eaf-bind-key scroll_down "C-p" eaf-pdf-viewer-keybinding)
+      (eaf-bind-key take_photo "p" eaf-camera-keybinding))
 
 #+end_src
 * EXWM
